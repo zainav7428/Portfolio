@@ -16,7 +16,7 @@ SiSpringboot
 } from "react-icons/si";
 
 
-import skillsImg from "../assets/skills.png";
+import skillsImg from "../assets/Skills.png";
 
 
 
