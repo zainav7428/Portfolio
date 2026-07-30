@@ -13,7 +13,8 @@ FaCode,
 FaFolder,
 FaEnvelope,
 FaMoon, 
-FaSun
+FaSun,
+FaBriefcase
 
 } from "react-icons/fa";
 
@@ -75,6 +76,12 @@ icon:<FaFolder/>
 name:"Contact",
 path:"/contact",
 icon:<FaEnvelope/>
+},
+
+{
+name:"Experience",
+path:"/experience",
+icon:<FaBriefcase/>
 }
 
 ];

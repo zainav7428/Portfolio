@@ -278,20 +278,22 @@ font-medium
 
 
 {/* Button */}
+<motion.a
 
-<motion.button
+href="/projects"
 
 whileHover={{
-  scale:1.05
+scale:1.05
 }}
 
 whileTap={{
-  scale:0.95
+scale:0.95
 }}
 
 className="
+inline-flex
+w-fit
 mt-10
-flex
 items-center
 gap-3
 rounded-xl
@@ -305,6 +307,7 @@ text-white
 shadow-lg
 shadow-purple-500/30
 transition
+cursor-pointer
 "
 
 >
@@ -315,8 +318,7 @@ Explore My Work
 →
 </span>
 
-
-</motion.button>
+</motion.a>
 
 
 
